@@ -5,8 +5,6 @@ Created on Thu Apr 23 16:19:27 2020
 @author: David
 """
 
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 from numpy import array
@@ -23,7 +21,7 @@ v = array([-5, -4, -3 , -2,-1, 0, 1, 2, 3 ,4 ,5])
 fig = plt.figure()
 
 # plot the function
-plt.plot(x,pow(x,1.3), 'r')
+plt.plot(x,pow(3,x), 'r')
 
 # show the plot
 plt.show()
